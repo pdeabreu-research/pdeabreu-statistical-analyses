@@ -1,0 +1,28 @@
+# Raw / restricted data
+*.dta
+*.sav
+*.zsav
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.feather
+
+# R session artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# Stata artifacts
+*.smcl
+*.log
+
+# Generated outputs (keep documentation only)
+outputs/*
+!outputs/README.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
